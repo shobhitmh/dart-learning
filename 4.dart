@@ -3,7 +3,11 @@ import 'dart:io';
 void main() {
   var name;
   name = stdin.readLineSync();
+<<<<<<< HEAD
   int age = 12;
+=======
+  int age = stdin.readByteSync();
+>>>>>>> 812c6ff16bdb8af31032683aac3c8a8ea75c3467
   bool adt = adult(age);
 
   Map<String, dynamic> mp = {
